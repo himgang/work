@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="classes_HDFC">
+	<class name="applications" table="applications">
+	<id name="Customer_Id" type="long" column="Customer_Id" >
+	<generator class="assigned"/>
+	</id>
+<property name="Customer_Name">
+<column name="Customer_Name" />
+</property>
+<property name="Customer_Address">
+<column name="Customer_Address" />
+</property>
+<property name="Customer_Salary">
+<column name="Customer_Salary" />
+</property>
+<property name="Customer_Phone">
+<column name="Customer_Phone" />
+</property>
+<property name="Customer_Age">
+<column name="Customer_Age" />
+</property>
+<property name="Amount">
+<column name="Amount" />
+</property>
+<property name="Time">
+<column name="Time" />
+</property>
+<property name="Customer_Status">
+<column name="Customer_Status" />
+</property>
+<property name="Customer_EMI">
+<column name="Customer_EMI" />
+</property>
+</class>
+<class name="Login_Details" table="Login_Details">
+	<id name="Customer_Id" type="long" column="Customer_Id" >
+	<generator class="assigned"/>
+	</id>
+	<property name="Customer_Password">
+	<column name="Customer_Password" />
+	</property>
+</class>
+</hibernate-mapping>

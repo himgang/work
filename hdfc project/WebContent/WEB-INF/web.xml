@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>HDFC_Loan_Approval_System</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>Apply_online</display-name>
+    <servlet-name>Apply_online</servlet-name>
+    <servlet-class>classes_HDFC.Apply_online</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Apply_online</servlet-name>
+    <url-pattern>/Apply_online</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Customer_Login</display-name>
+    <servlet-name>Customer_Login</servlet-name>
+    <servlet-class>classes_HDFC.Customer_Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer_Login</servlet-name>
+    <url-pattern>/Customer_Login</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Admin_Login</display-name>
+    <servlet-name>Admin_Login</servlet-name>
+    <servlet-class>classes_HDFC.Admin_Login</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Admin_Login</servlet-name>
+    <url-pattern>/Admin_Login</url-pattern>
+  </servlet-mapping>
+</web-app>

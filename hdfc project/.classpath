@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_91">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/ehcache-core-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/ehcache-terracotta-2.6.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/javassist-3.12.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/slf4j-api-1.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/slf4j-jdk14-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/slf4j-simple-1.6.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/required/required/terracotta-toolkit-1.6-runtime-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/jstl-impl.jar/jstl-impl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/himanshu.gangwar/Downloads/jstl-1.2.jar/jstl-1.2.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
